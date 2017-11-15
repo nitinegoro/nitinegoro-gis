@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nitinegoro GIS V1</title>
+	<link href="../public/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../public/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../public/css/template.css" rel="stylesheet">
+    <script type="text/javascript" src="../public/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../public/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="backdrop"></div>
+	<nav class="navbar navbar-default navbar-fixed-tp" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					Nitinegoro GIS V1
+				</a>
+			</div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class=""><a class="hvr-underline-reveal" href="https://github.com/nitinegoro/nitinegoro-gis">Download</a></li>
+					<li><a class="hvr-underline-reveal" href="#instalation">Instalation</a></li>
+					<li><a class="hvr-underline-reveal" href="http://vicky.work">About Me</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container container-content">
+		<div class="row">
+			<div class="col-md-8 col-xs-12 col-lg-8 col-lg-offset-2 col-md-offset-2" style="margin-bottom: 50px; margin-top: 50px;">
+				<h2><a id="Nitinegoro_GIS_V1_0"></a>Nitinegoro GIS V1</h2>
+				<p>Nitinegoro GIS adalah GIS sederhana yang dibangun dengan PHP (Framework Codeigniter 3), Google Maps V3 API dan Twitter bootstrap, Dibuat demi memenuhi tugas Mata Kuliah Geographic Information System.</p>
+				<h2><a id="Instalation_2"></a>Instalation</h2>
+				<ol>
+				<li>Import Database <a href="/blob/master/DB-SCHEMA.sql">DISINI</a> kedalam Webserver.</li>
+				<li>Buka folder aplikasi /application/config/database.php dan ubah pengaturan database<br>
+					<pre>
+'hostname' => 'localhost',
+'username' => 'root',
+'password' => '',
+'database' => 'tugas-gis',</pre>
+				</li>
+				<li>Jalankan <a href="http://127.0.0.1/nitinegoro-gis/">http://127.0.0.1/nitinegoro-gis/</a></li>
+				<li>Administratro login (username/email : <em>mail@vicky.work</a></em> pass : <em>admin123</em>)</li>
+				</ol>
+				<h2><a id="SCREENSHOOT_11"></a>SCREENSHOOT</h2>
+				<p><img src="https://raw.githubusercontent.com/nitinegoro/nitinegoro-gis/master/SC.png" class="img-responsive" title="Screenshoot Aplikasi Nitinegor GIS"></p>
+				<h2><a id="LICENSI_13"></a>LICENSI</h2>
+				<ol>
+				<li>Anda boleh memakai, mengkopi dan menyebarkan kembali code dari aplikasi ini.</li>
+				<li>Membuat produk turunan menggunakan lisensi berbeda.</li>
+				<li>ANDA BOLEH Mengkomersialkan atau menjual Aplikasi ini ke orang lain.</li>
+				<li>The best part: anda tidak perlu mengopensource kan kembali apa yang telah ada ubah atau edit.</li>
+				</ol>
+				<h3><a id="Larangan_18"></a>Larangan</h3>
+				<ol>
+				<li>Anda tidak boleh mengaku -aku kalau itu karya anda.</li>
+				<li>Pembuat GIS ini (Vicky Saputra) tidak bertanggung jawab jika ada kerusakan software, hardware atau kerugian lain yang disebabkan baik langsung atau tidak langsung.</li>
+				</ol>
+				<h2><a id="Contat_Pembuat_21"></a>Contact Pembuat</h2>
+				<p><i class="fa fa-phone"></i>  <a href="https://api.whatsapp.com/send?phone=6282373004116&amp;text=">082 373 004 116</a> (Vicky Saputra)<br>
+				<i class="fa fa-envelope"></i> <a href="mailto:mai@vicky.work">mail@vicky.work</a></p>
+				<h2><a id="DEMO_24"></a>DEMO</h2>
+				<p><a href="http://vicky.work/nitinegoro-gis">http://vicky.work/nitinegoro-gis</a></p>
+			</div>
+		</div>
+	</div>
+	<footer class="page-break-top">
+		<div class="footer-divider"></div>
+		<div class="container">
+			<div class="row">
+				<div class="clearfix page-break-top"></div>
+				<div class="hr5"></div>
+				<div class="col-md-12">
+					<p class="text-center"><small>Hak Cipta <strong>Vicky Saputra</strong> &copy; 2017 <a href="http://vicky.work">[http://vicky.work]</a>. All Right Reserved</small></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
