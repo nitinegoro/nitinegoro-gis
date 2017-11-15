@@ -26,7 +26,7 @@ Nitinegoro GIS adalah GIS sederhana yang dibangun dengan PHP (Framework Codeigni
 2. Pembuat GIS ini (Vicky Saputra) tidak bertanggung jawab jika ada kerusakan software, hardware atau kerugian lain yang disebabkan baik langsung atau tidak langsung.
 
 ## Contat Pembuat
-:phone:  082 373 004 116 (Vicky Saputra)
+:phone:  [082 373 004 116](https://api.whatsapp.com/send?phone=6282373004116&text=Halo, Vicky Saputra, saya ada kendala dalam aplikasi Nitinegoro GIS V1) (Vicky Saputra)
 
 :envelope: pkpvicky@gmail.com
 
