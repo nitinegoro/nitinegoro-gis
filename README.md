@@ -10,17 +10,11 @@ Nitinegoro GIS adalah GIS sederhana yang dibangun dengan PHP (Framework Codeigni
     'database' =&gt; 'nitinegoro-gis', // Nama Database
     </code></pre>
 3. Jalankan [http://127.0.0.1/nitinegoro-gis/](http://127.0.0.1/nitinegoro-gis/)
-4. Administratro login (username/email : *mail@vicky.work* pass : *admin123*)
+4. Administratro login : buat sendiri akun didatabase menggunakan password_hash
 
 ## SCREENSHOOT
 ![alt text](https://github.com/nitinegoro/nitinegoro-gis/blob/master/SC.png "Screenshoot Aplikasi Nitinegor GIS")
 
 ## LICENSI
 1. Anda boleh memakai, mengkopi dan menyebarkan kembali code dari aplikasi ini.
-2. Membuat produk turunan menggunakan lisensi berbeda.
-3. ANDA BOLEH Mengkomersialkan atau menjual Aplikasi ini ke orang lain.
-4. The best part: anda tidak perlu mengopensource kan kembali apa yang telah ada ubah atau edit.
 
-### Larangan
-1. Anda tidak boleh mengaku -aku kalau itu karya anda.
-2. Pembuat GIS ini (Vicky Saputra) tidak bertanggung jawab jika ada kerusakan software, hardware atau kerugian lain yang disebabkan baik langsung atau tidak langsung.
